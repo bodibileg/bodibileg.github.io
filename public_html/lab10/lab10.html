@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clean Screen</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: #f1f1f1;
+      }
+      #container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-auto-rows: 100px;
+        gap: 20px;
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+      }
+      .circle {
+        background: linear-gradient(
+          to right,
+          #ffb6c1,
+          #ffccf9,
+          #c7ceea,
+          #b3e5fc
+        );
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label>Width</label>
+      <input type="number" id="width" value="50" />
+      <label>Growth amount</label>
+      <input type="number" id="growth" value="10" />
+      <label>Grow Rate</label>
+      <input type="number" id="rate" value="250" />
+      <label>Number Of Circles</label>
+      <input type="number" id="number" value="1" />
+      <button>Start</button>
+    </form>
+    <div id="container"></div>
+  </body>
+  <script>
+    const form = document.querySelector("form");
+    const container = document.getElementById("container");
+    const widthInput = document.getElementById("width");
+    const growthInput = document.getElementById("growth");
+    const rateInput = document.getElementById("rate");
+    const numberInput = document.getElementById("number");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const growth = parseInt(growthInput.value);
+      const rate = parseInt(rateInput.value);
+      const number = parseInt(numberInput.value);
+
+      container.innerHTML = "";
+
+      for (let i = 0; i < number; i++) {
+        let width = parseInt(widthInput.value);
+
+        const circle = document.createElement("div");
+        circle.className = "circle";
+        circle.id = `circle-${i}`;
+        circle.style.width = `${width}px`;
+        circle.style.height = `${width}px`;
+
+        container.appendChild(circle);
+
+        const intervalId = setInterval(() => {
+          width += growth;
+          circle.style.width = `${width}px`;
+          circle.style.height = `${width}px`;
+        }, rate);
+
+        circle.addEventListener("click", () => {
+          clearInterval(intervalId);
+          circle.remove();
+        });
+      }
+    });
+  </script>
+</html>
