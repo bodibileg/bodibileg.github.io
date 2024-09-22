@@ -9,27 +9,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47328e6c-e968-4517-8595-398c1d5b74fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../lab14/.idea/lab14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/src/main/java/model/BeerExpert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/src/main/java/web/BeerSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/beer-advisor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/custom-tag/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/custom-tag/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/custom-tag/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/custom-tag/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/custom-tag/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/custom-tag/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab14/custom-tag/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../calculator/calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/calculator/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e4b912d8-8179-420f-a169-151077473522" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/lab14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/BeerExpert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/BeerSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/src/main/java/TestCustomTagServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/src/main/java/customtag/CurrentDateTimeTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/src/main/webapp/WEB-INF/customtags.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-tag/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11/beer-advisor/beer-advisor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab11/beer-advisor/beer-advisor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab11/calculator/calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab11/calculator/calculator/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +43,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -59,29 +63,43 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2lUu464xtV68u7vmxXM9gcdc4L7" />
+  <component name="ProjectId" id="2m6zC1sMmp5iWXe7sTjCN7F9Sx9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Tomcat Server.Tomcat 9.0.93.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bodibileg/Lessons/bodibileg.github.io/public_html/lab14/beer-advisor/src/main/webapp/WEB-INF/classes/com/example&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/example" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.93" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.93" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -93,7 +111,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="dbc66912-205a-41db-952a-1d6577e987fe" />
+        <option name="BASE_DIRECTORY_NAME" value="479da11e-dbea-4613-b30e-d2b9034b01a4" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -101,7 +119,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60921" />
+        <option name="DEBUG_PORT" value="60944" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -182,14 +200,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47328e6c-e968-4517-8595-398c1d5b74fa" name="Changes" comment="" />
-      <created>1725246783576</created>
+      <changelist id="e4b912d8-8179-420f-a169-151077473522" name="Changes" comment="" />
+      <created>1726411683887</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725246783576</updated>
-      <workItem from="1725246784612" duration="2528000" />
-      <workItem from="1726412210057" duration="625000" />
-      <workItem from="1727019568519" duration="416000" />
+      <updated>1726411683887</updated>
+      <workItem from="1726411684920" duration="4394000" />
+      <workItem from="1727017161319" duration="139000" />
     </task>
     <servers />
   </component>
